@@ -1,5 +1,4 @@
-// const API_KEY = "HI37AN5ZYD7NVCGH";
-const API_KEY = "NJ64BVB2BF81KX3E";
+const API_KEY = process.env.API_KEY;
 const BASE_URL = `https://www.alphavantage.co/query?apikey=${API_KEY}&`
 
 
