@@ -116,7 +116,7 @@ const StockGraph = ({ companyId }) => {
   };
   console.log(chartData, "chartdata");
   return (
-    <div>
+    <div className="w-screen px-3 lg:px-0 lg:w-full">
       <div className="mb-2">
         <select
           value={timeRange}
